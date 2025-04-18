@@ -1,0 +1,60 @@
+{
+  "os": "Linux-5.15.0-125-generic-x86_64-with-glibc2.31",
+  "python": "CPython 3.10.10",
+  "startedAt": "2025-04-18T16:05:27.013967Z",
+  "program": "/mnt/e_disk/DA24S008/DA6401_Assignment_2/partB/assignment2B.ipynb",
+  "codePath": "partB/assignment2B.ipynb",
+  "git": {
+    "remote": "https://github.com/Navaneeth272001/DA6401_Assignment_2.git",
+    "commit": "10f501f954a1bc9769ccf4a2ce689ee3e91af429"
+  },
+  "email": "vnprathiksh@gmail.com",
+  "root": "/mnt/e_disk/DA24S008/DA6401_Assignment_2/partB",
+  "host": "senaicluster",
+  "executable": "/mnt/e_disk/da24s008/bin/python",
+  "codePathLocal": "assignment2B.ipynb",
+  "cpu_count": 64,
+  "cpu_count_logical": 128,
+  "gpu": "NVIDIA RTX A6000",
+  "gpu_count": 4,
+  "disk": {
+    "/": {
+      "total": "869372051456",
+      "used": "753104154624"
+    }
+  },
+  "memory": {
+    "total": "134889144320"
+  },
+  "cpu": {
+    "count": 64,
+    "countLogical": 128
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "51527024640",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "51527024640",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "51527024640",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA RTX A6000",
+      "memoryTotal": "51527024640",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "12.7"
+}
