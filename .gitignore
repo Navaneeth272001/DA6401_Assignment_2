@@ -1,3 +1,4 @@
 dataset/
 partA/wandb/
+partB/wandb/
 googlenet_finetuned.pth
