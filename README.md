@@ -13,9 +13,13 @@ The inaturalist_12K dataset will contain two different folders "train" adn "test
 I have usesd Python version 3.10.10
 
 Requirements:
+
 pip install torch
+
 pip install torchvision
+
 pip install matplotlib
+
 pip install wandb
 
 Note: These are general informations. Inside each folder there is individual README files which are specific to that part. 
