@@ -8,3 +8,82 @@
 {"time":"2025-04-18T21:45:07.071214323+05:30","level":"INFO","msg":"Pausing system monitor"}
 {"time":"2025-04-18T21:50:21.561303116+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/navaneeth001/Assignment2/zj02v67f/file_stream"}
 {"time":"2025-04-18T21:50:21.561362469+05:30","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/navaneeth001/Assignment2/zj02v67f/file_stream: {\"error\":\"run Assignment2/zj02v67f not found while streaming file\"}"}
+{"time":"2025-04-19T02:25:01.224980193+05:30","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"context deadline exceeded\",\"path\":[\"project\",\"run\"]}],\"data\":{\"project\":{\"run\":null}}}"}
+{"time":"2025-04-19T02:25:24.200715808+05:30","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"context deadline exceeded\",\"path\":[\"project\",\"run\"]}],\"data\":{\"project\":{\"run\":null}}}"}
+{"time":"2025-04-19T02:55:35.772842372+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-04-19T11:04:23.410774987+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-19T11:04:23.415062349+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-19T11:04:24.345928484+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-19T11:04:24.349041501+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-19T11:04:25.194707493+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-19T11:04:25.198023726+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-19T11:04:25.738074499+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-19T11:04:25.740854743+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-19T11:04:25.994685397+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-19T11:04:25.997923892+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-19T11:04:26.055757008+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-19T11:04:26.058562759+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-19T11:04:26.407449955+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-19T11:04:26.450194664+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-19T11:04:26.450209883+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-19T11:04:26.450216005+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-19T11:04:26.47839356+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-19T11:04:26.481075075+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-19T11:04:27.105089357+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-19T11:04:27.107598164+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-19T11:04:33.606634161+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-19T11:04:33.611079644+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-19T11:04:38.952727054+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-19T11:04:41.083311919+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-19T11:04:41.382311329+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-04-19T11:04:41.382415848+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"run Assignment2/zj02v67f not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-04-19T11:09:26.091172355+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-19T11:09:26.355806444+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zj02v67f was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-19T11:09:28.974704+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zj02v67f was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-19T11:09:33.929655358+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zj02v67f was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-19T11:09:42.398402994+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zj02v67f was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-19T11:10:02.505547561+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zj02v67f was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-19T11:10:35.384813862+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zj02v67f was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-19T11:11:35.640533464+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zj02v67f was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-19T11:12:35.892930481+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zj02v67f was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-19T11:13:36.142690237+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zj02v67f was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-19T11:14:36.391855152+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zj02v67f was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-19T11:15:36.64294507+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zj02v67f was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-19T11:15:47.16593974+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-04-19T11:15:47.166016175+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"run Assignment2/zj02v67f not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-04-19T11:16:36.894552534+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zj02v67f was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-19T11:17:37.14258997+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zj02v67f was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-19T11:18:37.392221764+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zj02v67f was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-19T11:19:26.100200585+05:30","level":"WARN","msg":"sender: taking a long time","seconds":600.000947367,"work":"WorkRecord(*service_go_proto.Record_Telemetry); Control(connection_id:\"127.0.0.1:52472\")"}
+{"time":"2025-04-19T11:19:37.643582528+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zj02v67f was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-19T11:20:37.892360477+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zj02v67f was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-19T11:21:20.522659403+05:30","level":"WARN","msg":"runwork: taking a long time","seconds":600.000130305,"work":"WorkRecord(*service_go_proto.Record_Stats); Control(always_send:true)"}
+{"time":"2025-04-19T11:21:20.546954751+05:30","level":"WARN","msg":"runwork: taking a long time","seconds":600.00008771,"work":"WorkRecord(*service_go_proto.Record_Stats); Control(always_send:true)"}
+{"time":"2025-04-19T11:21:20.587253223+05:30","level":"WARN","msg":"runwork: taking a long time","seconds":600.000567354,"work":"WorkRecord(*service_go_proto.Request_PartialHistory); Control(local:true connection_id:\"127.0.0.1:52472\")"}
+{"time":"2025-04-19T11:21:38.154668146+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zj02v67f was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-19T11:22:38.404014496+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zj02v67f was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-19T11:23:38.656544814+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zj02v67f was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-19T11:24:38.908387907+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zj02v67f was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-19T11:25:39.612628773+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zj02v67f was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-19T11:25:39.612761875+05:30","level":"ERROR","msg":"sender: sendConfig:","error":"api: failed sending: POST https://api.wandb.ai/graphql giving up after 21 attempt(s)"}
+{"time":"2025-04-19T11:25:39.612877165+05:30","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":973.513624177,"work":"WorkRecord(*service_go_proto.Record_Telemetry); Control(connection_id:\"127.0.0.1:52472\")"}
+{"time":"2025-04-19T11:25:39.612954572+05:30","level":"INFO","msg":"runwork: succeeded after taking longer than expected","seconds":859.026236442,"work":"WorkRecord(*service_go_proto.Request_PartialHistory); Control(local:true connection_id:\"127.0.0.1:52472\")"}
+{"time":"2025-04-19T11:25:39.613009496+05:30","level":"INFO","msg":"runwork: succeeded after taking longer than expected","seconds":859.090477072,"work":"WorkRecord(*service_go_proto.Record_Stats); Control(always_send:true)"}
+{"time":"2025-04-19T11:25:39.613071243+05:30","level":"INFO","msg":"runwork: succeeded after taking longer than expected","seconds":859.066154318,"work":"WorkRecord(*service_go_proto.Record_Stats); Control(always_send:true)"}
+{"time":"2025-04-19T11:25:39.958326931+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-19T11:25:39.95836818+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-19T11:25:39.958474382+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-19T11:25:40.25766864+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-04-19T11:25:40.25773711+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"run Assignment2/zj02v67f not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-04-19T11:31:09.171757447+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-19T11:31:10.24478695+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-19T11:32:02.925347415+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-19T11:32:19.859785331+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-19T11:35:12.350724189+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-19T11:35:21.147765402+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-19T11:36:25.764327992+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-19T11:36:34.895298128+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-19T11:56:39.145635674+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-19T11:56:39.186201525+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-04-19T12:15:21.783033017+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-04-19T12:15:46.780682915+05:30","level":"INFO","msg":"Pausing system monitor"}
