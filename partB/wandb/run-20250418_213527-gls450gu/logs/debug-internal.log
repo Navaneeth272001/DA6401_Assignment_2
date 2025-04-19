@@ -1,7 +1,0 @@
-{"time":"2025-04-18T21:35:27.016179344+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/mnt/e_disk/DA24S008/DA6401_Assignment_2/partB/wandb/run-20250418_213527-gls450gu/logs/debug-core.log"}
-{"time":"2025-04-18T21:35:27.127725837+05:30","level":"INFO","msg":"created new stream","id":"gls450gu"}
-{"time":"2025-04-18T21:35:27.127754922+05:30","level":"INFO","msg":"stream: started","id":"gls450gu"}
-{"time":"2025-04-18T21:35:27.127798986+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gls450gu"}
-{"time":"2025-04-18T21:35:27.12782711+05:30","level":"INFO","msg":"handler: started","stream_id":"gls450gu"}
-{"time":"2025-04-18T21:35:27.127879579+05:30","level":"INFO","msg":"sender: started","stream_id":"gls450gu"}
-{"time":"2025-04-18T21:35:27.51979538+05:30","level":"INFO","msg":"Starting system monitor"}

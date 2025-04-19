@@ -22,4 +22,6 @@ pip install matplotlib
 
 pip install wandb
 
+pip install numpy
+
 Note: These are general informations. Inside each folder there is individual README files which are specific to that part. 
