@@ -6,6 +6,8 @@ The assignment2A.ipynb file contains the code for building a custion CNN network
 
 Note: There are actually two networks in the code, just to differentiate the answers to the question. For training the network, first cell and the 4th cell are necessary.
 
+Solution to each question is written in different cells for ease of reading the codes.
+
 The training will be logged to wandb project. 
 
 Use wandb login before running the notebook. 
@@ -68,4 +70,26 @@ wandb
 matplotlib
 numpy
 
+### Best config based on wandb training:
+
+```python
+best_config = {
+    'epochs': 30,
+    'm': 64,
+    'k': [3, 3, 3, 3, 3],
+    'filter_org': 'double',
+    'optim_algo': 'momentum',
+    'batch_size': 128,
+    'lr': 0.01,
+    'data_aug': 'no',
+    'batch_norm': 'no',
+    'weight_init': 'random',
+    'dropout': 0.3,
+    'activation': 'silu'
+}
+```
+
+### Things to note while training:
+I was not able to train for higher batch_size such as 1000, due to lack of compute.
+I trained the whole network on NVIDIA RTX A6000 GPU. I tried running on CPU, but took a lot of time for even a single run of a wandb sweep
 

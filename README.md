@@ -2,6 +2,9 @@
 # ID: DA24S008
 # This repo contains the solutions for Assignment 2
 
+## WANDB report link:
+https://wandb.ai/navaneeth001/Assignment2/reports/DA24S008-DA6401-Assignment-2--VmlldzoxMjM2NTc1OA
+
 There are different three parts (Part A, part B and part C (optional)) in the assignment. Solution to each part is present in corresponding folders named partA, partB and partC respectively.
 
 The dataset used in the assignment is iNaturalist, it can be downloaded from the given link:
